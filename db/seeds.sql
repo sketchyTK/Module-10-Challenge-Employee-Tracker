@@ -28,3 +28,23 @@ insert into role (id, role, salary, department_id) VALUES
 (16, 'Maintenance Team Member', 9);
 
 insert into employee (id, first_name, last_name, role_id, manager_id) VALUES
+(1, 'Alice', 'Johnson', 1, NULL),
+(2, 'Bob', 'Smith', 2, 1),
+(3, 'Charlie', 'Williams', 3, 1),
+(4, 'Diana', 'Jones', 4, 2),
+(5, 'Edward', 'Brown', 5, 2),
+(6, 'Fiona', 'Davis', 6, 3),
+(7, 'George', 'Miller', 7, 3),
+(8, 'Hannah', 'Wilson', 8, 4),
+(9, 'Isaac', 'Moore', 4, 4),
+(10, 'Jessica', 'Taylor', 4, 5),
+(11, 'Kevin', 'Anderson', 5, 6),
+(12, 'Laura', 'Thomas', 5, 6),
+(13, 'Michael', 'Jackson', 5, 7),
+(14, 'Nina', 'White', 5, 7),
+(15, 'Olivia', 'Harris', 6, 8),
+(16, 'Paul', 'Clark', 6, 8),
+(17, 'Quincy', 'Lewis', 6, 9),
+(18, 'Rachel', 'Walker', 6, 9),
+(19, 'Steve', 'Roberts', 7, 10), 
+(20, 'Tina', 'Scott', 7, 10); 
